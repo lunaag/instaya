@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  gap: 15px;
+}
