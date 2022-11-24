@@ -22,9 +22,7 @@ const EstadoOrdenes = () => {
                         <td>19/11/2022</td>
                         <td>Santa Marta</td>
                         <td>Calle 1 # 2-5</td>
-                        <td>
-                            <Link to='/estado/1/edit'>Edit</Link>
-                        </td>
+                        <td>Guardado</td>
                     </tr>
                     <tr>
                         <th scope="row">
@@ -33,7 +31,7 @@ const EstadoOrdenes = () => {
                         <td>19/11/2022</td>
                         <td>Cali</td>
                         <td>Calle 54 # 118-37</td>
-                        <td><Link to='/estado/2/edit'>Edit</Link></td>
+                        <td>Cancelado</td>
                     </tr>
                     <tr>
                         <th scope="row">
@@ -42,7 +40,7 @@ const EstadoOrdenes = () => {
                         <td>  </td>
                         <td>  </td>
                         <td>  </td>
-                        <td><Link to='/estado/3/edit'>Edit</Link></td>
+                        <td> Enviado</td>
                     </tr>
                 </tbody>
             </table>
