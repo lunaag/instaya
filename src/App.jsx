@@ -4,6 +4,7 @@ import Login from './components/formularios/login'
 import Registro from './components/formularios/register'
 import { BrowserRouter, Route, Routes} from "react-router-dom"
 import Navbar from './components/navbar'
+import EstadoOrdenes from './components/formularios/estado'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
        <Routes>
         <Route path="/login" element={<Login/>}/>
         <Route path="/registro" element={<Registro/>}/>
+        <Route path= "/estado" element={<EstadoOrdenes/>}/>
        </Routes>
        </div>
       </BrowserRouter>
