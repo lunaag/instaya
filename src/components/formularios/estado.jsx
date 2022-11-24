@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const EstadoOrdenes = () => {
     return (
         <>
-            <Link to='/solicitar'>Crear Orden</Link>
+            <Link to='/estado/solicitar'>Crear Orden</Link>
             <table className="Estado Envio">
                 <thead>
                     <tr>

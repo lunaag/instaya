@@ -45,10 +45,10 @@ const Solicitar = () => {
                 <label>Cédula/Nit destinatario</label>
                 <input
                     type="number"
-                    {...register("cedula/Nitdestinatario", { min: 7, max: 20 })}
-                    aria-invalid={errors.cedula/Nitdestinatario ? "true" : "false"}
+                    {...register("cedula_nitdestinatario", { min: 7, max: 20 })}
+                    aria-invalid={errors.cedula_nitdestinatario ? "true" : "false"}
                 />
-                {errors.cedula/Nitdestinatario && <p>Min 7. Max 20</p>}
+                {errors.cedula_nitdestinatario && <p>Min 7. Max 20</p>}
             </div>
             <div className="form-solicitar__item">
                 <label>Dirección Entrega</label>

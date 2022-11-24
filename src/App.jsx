@@ -5,6 +5,7 @@ import Registro from './components/formularios/register'
 import { BrowserRouter, Route, Routes} from "react-router-dom"
 import Navbar from './components/navbar'
 import EstadoOrdenes from './components/formularios/estado'
+import Solicitar from './components/formularios/solicitar-registro'
 
 function App() {
   const [count, setCount] = useState(0)
