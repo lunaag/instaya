@@ -20,13 +20,13 @@ const Navbar = () => {
                       className="nav-link"
                       to="/registro">Servicios</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <NavLink
                       style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}
                       className="nav-link"
                       to="/login">Sigue tu envio</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <NavLink
                       style={({ isActive }) => ({ color: isActive ? 'green' : 'black' })}
                       className="nav-link"
