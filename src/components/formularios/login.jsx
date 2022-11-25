@@ -32,8 +32,10 @@ const Login = () => {
                 {errors.password && <p> Field required. Password should be at least 8 characters</p>}
               </div>
             </div>
-
+            <div>
+            <p> </p>
             <input type="submit" className="btn btn-primary btn-sm mb-4"/>
+            </div>
             </Container>
         </form>
     )

@@ -25,3 +25,8 @@
   font-size: 12px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #b52e31;
+  border-color: #b52e31
+}
