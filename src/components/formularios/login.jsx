@@ -2,14 +2,16 @@ import { useForm } from "react-hook-form";
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom"
 
+
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
     const customSubmit = (data) => { console.log('login data', data) }
 
+
+    
     return (
-        <form className="form-login" onSubmit={handleSubmit(customSubmit)}>
-           <Container>
-          
+      <form className="form-login" onSubmit={handleSubmit(customSubmit)}>
+        <Container>
            <div className="form_item col-md-4 offset-md-4">
            <label htmlFor="username" className="col-form-label">Usuario</label>
               <div>
@@ -36,9 +38,13 @@ const Login = () => {
             <p> </p>
             <input type="submit" className="btn btn-primary btn-sm mb-4"/>
             </div>
-            </Container>
-        </form>
+            <p>Quieres solicitar un envio?</p>
+            <Link className="btn btn-primary login__create" to='/solicitar-registro/new'>Solicitar</Link>
+          </Container>
+      </form>
+           
     )
+
 }
 
 export default Login

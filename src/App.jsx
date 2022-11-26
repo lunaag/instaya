@@ -19,10 +19,11 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/registro" element={<Registro/>}/>
         <Route path= "/estado" element={<EstadoOrdenes/>}/>
-        <Route path= "/estado/solicitar" element ={<Solicitar/>}/>
+        <Route path= "/login/solicitar" element ={<Solicitar/>}/>
+        <Route path="solicitar-registro" element={<Solicitar/>}/>
        </Routes>
-       </div>
-      </BrowserRouter>
+      </div>
+    </BrowserRouter>
       
     
   )

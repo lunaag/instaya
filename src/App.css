@@ -5,7 +5,16 @@
 .navbar-nav {
   flex-direction: row;
   gap: 15px;
+  background-color: rgb(88, 153, 238);
 }
+.contenedor {
+	min-height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+  background-color: rgb(167, 197, 236);
+}
+
 
 .form {
   display: flex;
@@ -29,4 +38,17 @@
   color: #fff;
   background-color: #b52e31;
   border-color: #b52e31
+}
+body {
+  background-color: rgb(129, 235, 161);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
